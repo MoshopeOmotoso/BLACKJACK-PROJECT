@@ -2,7 +2,7 @@ from random import randint
 from end_status import blackjack_or_bust
 from value import card_value
 from name import draw
-# Write all of your part 2A code below this comment. DO NOT CHANGE OR REMOVE THIS COMMENT.
+
 def play_dealer_turn():
   starting_hand = 0
   for i in range(2):
